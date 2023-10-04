@@ -1,0 +1,47 @@
+{
+  "name": "test3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.0.11",
+    "augmented-ui": "^2.0.0",
+    "cluster": "^0.7.7",
+    "color": "^4.2.3",
+    "electron": "^26.2.1",
+    "geolite2-redist": "^3.0.4",
+    "howler": "^2.2.4",
+    "jquery": "^3.7.1",
+    "mathjax": "^3.2.2",
+    "mime-types": "^2.1.35",
+    "node-pty": "^1.0.0",
+    "pdfjs": "^2.5.2",
+    "pdfjs-dist": "^3.10.111",
+    "pretty-bytes": "^6.1.1",
+    "shell-env": "3.0.1",
+    "signale": "^1.4.0",
+    "smoothie": "^1.36.1",
+    "systeminformation": "^5.21.6",
+    "three": "^0.156.1",
+    "which": "^4.0.0",
+    "worker-threads": "^1.0.0",
+    "ws": "^8.14.1",
+    "xterm": "^5.3.0",
+    "xterm-addon-attach": "^0.9.0",
+    "xterm-addon-fit": "^0.8.0",
+    "xterm-addon-ligatures": "^0.7.0",
+    "xterm-addon-webgl": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "electron-rebuild": "^3.2.9"
+  }
+}

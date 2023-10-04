@@ -1,0 +1,26 @@
+div#mod_graph {
+    display: flex;
+    height: 600px;
+    padding-top: 0.645vh;
+    border-top: 0.092vh solid rgba(var(--color_r), var(--color_g), var(--color_b), 0.3);
+    font-family: var(--font_main_light);
+}
+
+div#mod_graph::before {
+    content: "";
+    border-left: 0.092vh solid rgba(var(--color_r), var(--color_g), var(--color_b), 0.3);
+    position: relative;
+    left: -0.092vh;
+    top: -1.111vh;
+    height: 0.833vh;
+}
+
+div#mod_graph::after {
+    content: "";
+    border-right: 0.092vh solid rgba(var(--color_r), var(--color_g), var(--color_b), 0.3);
+    position: relative;
+    right: -0.092vh;
+    top: -1.111vh;
+    height: 0.833vh;
+}
+
